@@ -1,0 +1,35 @@
+name: monet_calculator
+description: "莫奈取色计算器 - Material You风格"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # 动态取色
+  dynamic_color: ^1.7.0
+  
+  # 数学表达式计算
+  math_expressions: ^2.4.0
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # 震动反馈
+  vibration: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
